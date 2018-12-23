@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/santa_hat"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="1. Don't press back button
+
+2. You can take help of others
+
+3. Take a screenshot of the final page to reveal your Secret Santa Guess!!
+
+4. Please complete this funny activity to get your gift location
+
+5. Please Update status including Any issues in your board!"
+        />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Start"
+        android:textColor="@color/colorPrimary"
+        android:onClick="Start"
+        />
+
+
+</LinearLayout>
